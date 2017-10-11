@@ -2,11 +2,46 @@ html {
 -webkit-filter: grayscale(0.40);
 filter: grayscale(0.40);
 }
+picture{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+		/* styles unrelated to zoom */
+		* { border:0; margin:0; padding:0; }
+
+		/* these styles are for the demo, but are not required for the plugin */
+		.zoom {
+			display:inline-block;
+			position: relative;
+		}
+		
+		/* magnifying glass icon */
+		.zoom:after {
+			content:'';
+			display:block; 
+			width:33px; 
+			height:33px; 
+			position:absolute; 
+			top:0;
+			right:0;
+			background:url(icon.png);
+		}
+
+		.zoom img {
+			display: block;
+		}
+
+		.zoom img::selection { background-color: transparent; }
+
 
 .buttonDownload {
 	display: inline-block;
 	position: relative;
-	padding: 10px 25px;
+	padding: 10px 17.5px 10px 25px;
 	background-color: #428bca;
 	color: white;
 	font-family: 'Kanit';
@@ -14,11 +49,25 @@ filter: grayscale(0.40);
 	font-size: 0.9em;
 	text-align: center;
 	text-indent: 15px;
+	transition: background-color 0.3s ease !important;
 }
 
 .buttonDownload:hover {
-	background-color: #222;
-	color: white;
+	background-color: #3277b3;
+	transition: background-color 0.3s ease !important;
+}
+
+.buttonDownload:active {
+	background-color: #666;
+}
+
+.buttonDownload:active:after {
+	border-top-color: #fff !important;
+	animation-play-state: running !important;
+}
+
+.buttonDownload:active:before {
+	border-color:  #fff  !important;
 }
 
 .buttonDownload:before, .buttonDownload:after {
@@ -43,7 +92,6 @@ filter: grayscale(0.40);
 	height: 0;
 	margin-left: 3px;
 	margin-top: -7px;
-  
 	border-style: solid;
 	border-width: 4px 4px 0 4px;
 	border-color: transparent;
@@ -54,11 +102,11 @@ filter: grayscale(0.40);
 }
 
 .buttonDownload:hover:before {
-	border-color: #428bca;
+	border-color: #fff;
 }
 
 .buttonDownload:hover:after {
-	border-top-color: #428bca;
+	border-top-color: #fff;
 	animation-play-state: running;
 }
 
