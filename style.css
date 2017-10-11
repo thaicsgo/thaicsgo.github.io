@@ -37,7 +37,13 @@ picture{
 
 		.zoom img::selection { background-color: transparent; }
 
+.fa-steam, .fa-facebook {
+	color: #999;
+}
 
+.fa-steam:hover, .fa-facebook:hover{
+	color: #222
+}
 .buttonDownload {
 	display: inline-block;
 	position: relative;
@@ -641,8 +647,6 @@ html {
   .logo-secondary.has-rollover:hover .image-link.image-rollover {
     display: block; }
 
-.social {
-  font-size: 0; }
   .social li {
     display: inline-block; }
     .social li:first-child {
