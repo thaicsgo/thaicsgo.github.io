@@ -163,10 +163,7 @@ picture{
 	display: block;
 }
 
-.site-header:after, .site-content:after, .logo-wrap:after {
-  clear: both;
-  content: "";
-  display: table; }
+
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
