@@ -6,6 +6,12 @@ html {
 -webkit-filter: grayscale(0.40);
 filter: grayscale(0.40);
 }
+html, body {
+    width: 100% !important;
+    display: table !important;
+	  overflow-x:hidden !important;  
+}
+
 picture{
 	-webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
