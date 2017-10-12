@@ -1414,7 +1414,7 @@ nav .link-title {
 -webkit-tap-highlight-color: transparent;
 }
 
-.project-cover:hover, .project-cover:active {
+.project-cover:hover, .project-cover:active, .project-cover:focus {
   -webkit-touch-callout:none;
   -webkit-user-select:none;
   -khtml-user-select:none;
