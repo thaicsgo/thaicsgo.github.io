@@ -6,11 +6,7 @@ html {
 -webkit-filter: grayscale(0.40);
 filter: grayscale(0.40);
 }
-html, body {
-    width: 100% !important;
-    display: table !important;
-	  overflow-x:hidden !important;  
-}
+
 
 picture{
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -2552,13 +2548,6 @@ nav .link-title {
       padding-bottom: 0px;
       padding-top: 0px; } }
 
-.modules .image {
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 10px;
-  padding-top: 0px;
-  max-width: 100%;
-  width: 100%; }
 
 .modules .video {
   margin-left: auto;
