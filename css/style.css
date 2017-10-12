@@ -163,7 +163,10 @@ picture{
 	display: block;
 }
 
-
+.site-header:after, .site-content:after, .logo-wrap:after {
+  clear: both;
+  content: "";
+  display: table; }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
@@ -178,14 +181,6 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
-
-  html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
 
 /**
    * Remove default margin.
