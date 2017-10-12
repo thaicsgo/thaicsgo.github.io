@@ -1427,6 +1427,18 @@ nav .link-title {
 -webkit-tap-highlight-color: transparent;
 }
 
+.project-cover:hover .title {
+	font-weight:600;
+	color: #000;
+}
+
+.project-cover:hover:after .title {
+
+}
+
+.title {
+	    transition: all 0.175s ease-in-out !important;
+}
 
   .project-cover.hold-space .cover-image:before {
     content: '';
@@ -1538,7 +1550,7 @@ nav .link-title {
     font-family: 'Kanit';
     font-size: 30px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
     margin: auto;
     padding-bottom: 5px;
