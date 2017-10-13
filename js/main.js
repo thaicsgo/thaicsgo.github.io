@@ -3825,7 +3825,7 @@
             hoverIconEnabled: !1,
             slideSelector: ".js-lightbox, .js-grid-item-container"
         };
-        l.a.lightbox.color && (N.bgColor = l.a.lightbox.color.hex || "#fff", N.opacity = l.a.lightbox.color.opacity || "0.94"), 
+        l.a.lightbox.color && (N.bgColor = l.a.lightbox.color.hex || "#fff", N.opacity = l.a.lightbox.color.opacity || "0"), 
         u.a.init(N);
     }
     l.a.pageTransition && g.a.init(), l.a.linkTransition && s()(document.body).addClass("link-transition"), 
@@ -4018,7 +4018,7 @@
                 slideContentSelector: ".js-lightbox-slide-content",
                 slideSelector: ".js-lightbox",
                 bgColor: "#fff",
-                opacity: "0.94",
+                opacity: "0",
                 idleTimeInMs: 5e3,
                 isCircular: !0,
                 hoverIconEnabled: !0
