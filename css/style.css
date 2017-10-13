@@ -1396,7 +1396,7 @@ nav .link-title {
   main {
     padding-top: 0; } }
 
- .details-inner:after, .project-covers:after {
+.project-cover .details-inner:after, .project-covers:after {
   clear: both;
   content: "";
   display: table; }
@@ -1488,6 +1488,7 @@ nav .link-title {
     white-space: pre-line;
     word-wrap: break-word; }
   .details-inner {
+  .project-cover .details-inner {
     overflow: hidden; }
 
 .back-to-top .arrow {
@@ -1532,18 +1533,18 @@ nav .link-title {
     opacity: 0.3; }
   .project-cover .cover-image, .project-cover .cover-image:after, .project-cover .cover {
     border-radius: 0px; }
-  .details-wrap {
+  .project-cover .details-wrap {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     padding-top: 0%;
     width: 100%; }
- .details {
+  .project-cover .details {
     background: rgba(255, 255, 255, 0); }
-  details-inner {
+  .project-cover .details-inner {
     padding-left: 0%;
     padding-right: 0%; }
- .title {
+  .project-cover .title {
     color: #222;
     float: none;
     font-family: 'Kanit';
@@ -1574,13 +1575,13 @@ nav .link-title {
     text-align: left;
     text-transform: none;
     width: 90%; }
-   .custom {
+  .project-cover .custom {
     color: #999;
     float: none;
     font-family: 'Pridi', serif;
-	font-weight: 300;
     font-size: 14px;
     font-style: normal;
+    font-weight: 300;
     line-height: 17px;
     margin: auto;
     padding-bottom: 0px;
@@ -1689,6 +1690,7 @@ nav .link-title {
   padding-bottom: 0px;
   padding-top: 40px; }
 
+  padding-bottom: 0; }
 @media (max-width: 768px) {
   .project-covers {
     padding-bottom: 0px;
@@ -1763,6 +1765,7 @@ nav .link-title {
   .project-covers {
     padding-top: 0; } }
 
+	
 
 .project-header .title,
 .project-header .description,
