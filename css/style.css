@@ -656,7 +656,7 @@ html {
     display: block; }
 
 .social {
-  }
+  font-size: 0; }
   .social li {
     display: inline-block; }
     .social li:first-child {
@@ -788,7 +788,7 @@ main {
   text-align: left; }
 
 .logo-image {
-  max-width: 110px;
+  max-width: 50px;
   float: left;
   text-align: left; }
 
@@ -815,10 +815,7 @@ main {
   text-transform: none; }
   .logo,
   .logo a {
-    color: #222;
-	display: block;
-	height: 100%;
-	}
+    color: #222; }
   .logo a:hover {
     color: #222;
     font-style: normal;
@@ -851,8 +848,8 @@ nav {
   padding-top: 0px;
   width: 100%; }
   nav .gallery-title a {
-    color: #666;
-    font-family: 'Kanit', sans-serif;
+    color: #222;
+    font-family: tscy;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -886,16 +883,16 @@ nav {
       text-transform: none; }
   nav .page-title a {
     color: #999;
-    font-family: 'Kanit';
+    font-family: tscy;
     font-size: 14px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 14px;
     text-transform: none; }
     nav .page-title a:hover {
       color: #222;
       font-style: normal;
-      font-weight: 300;
+      font-weight: 400;
       text-transform: none; }
     nav .page-title a.active {
       color: #222;
@@ -1176,7 +1173,7 @@ nav .link-title {
   color: #ddd;
   margin-left: auto;
   margin-right: auto;
-  font-family: tscy, 'Kanit', sans-serif;
+  font-family: tscy;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1406,9 +1403,7 @@ nav .link-title {
 .project-cover {
   display: block;
   float: left;
-  position: relative;
--webkit-tap-highlight-color: transparent;
-  }
+  position: relative; }
   .project-cover.hold-space .cover-image:before {
     content: '';
     display: block;
@@ -1482,7 +1477,7 @@ nav .link-title {
   margin-right: 1%;
   width: 32.66667%; }
   .project-cover.hold-space .cover-image:before {
-    padding-bottom: 0; }
+    padding-bottom: 78.21782%; }
   .project-cover .cover-image-wrap {
     margin-bottom: 8.5%;
     margin-top: 0%;
@@ -1515,10 +1510,10 @@ nav .link-title {
   .project-cover .title {
     color: #222;
     float: none;
-    font-family: 'Kanit';
+    font-family: tscy;
     font-size: 30px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 30px;
     margin: auto;
     padding-bottom: 5px;
@@ -1546,10 +1541,10 @@ nav .link-title {
   .project-cover .custom {
     color: #999;
     float: none;
-    font-family: 'Pridi', serif;
+    font-family: tscy;
     font-size: 14px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 17px;
     margin: auto;
     padding-bottom: 0px;
@@ -1659,7 +1654,7 @@ nav .link-title {
   padding-top: 40px; }
 
 .project-cover .details-wrap {
-  padding-bottom: 0; }
+  padding-bottom: 20%; }
 
 @media (max-width: 768px) {
   .project-covers {
@@ -1734,6 +1729,7 @@ nav .link-title {
 @media (max-width: 768px) {
   .project-covers {
     padding-top: 0; } }
+
 
 
  .details-inner:after, .project-covers:after {
