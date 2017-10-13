@@ -1401,7 +1401,9 @@ nav .link-title {
   clear: both;
   content: "";
   display: table; }
-
+html, body {
+	-webkit-tap-highlight-color: transparent;
+}
 .project-cover {
   display: block;
   float: left;
