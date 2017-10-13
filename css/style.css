@@ -1398,7 +1398,7 @@ nav .link-title {
 
 .project-cover .details-inner:after, .project-covers:after {
   clear: both;
-  content: "";
+  content: ""; 
   display: table; }
 
 .project-cover {
@@ -1487,7 +1487,6 @@ nav .link-title {
   .project-cover .description {
     white-space: pre-line;
     word-wrap: break-word; }
-  .details-inner {
   .project-cover .details-inner {
     overflow: hidden; }
 
@@ -1690,7 +1689,9 @@ nav .link-title {
   padding-bottom: 0px;
   padding-top: 40px; }
 
+.project-cover .details-wrap {
   padding-bottom: 0; }
+
 @media (max-width: 768px) {
   .project-covers {
     padding-bottom: 0px;
