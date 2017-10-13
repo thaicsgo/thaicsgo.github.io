@@ -3825,7 +3825,7 @@
             hoverIconEnabled: !1,
             slideSelector: ".js-lightbox, .js-grid-item-container"
         };
-        l.a.lightbox.color && (N.bgColor = l.a.lightbox.color.hex || "#fff", N.opacity = l.a.lightbox.color.opacity || "0"), 
+        l.a.lightbox.color && (N.bgColor = l.a.lightbox.color.hex || "rgba(0, 0, 0, 0)", N.opacity = l.a.lightbox.color.opacity || "0"), 
         u.a.init(N);
     }
     l.a.pageTransition && g.a.init(), l.a.linkTransition && s()(document.body).addClass("link-transition"), 
@@ -4017,7 +4017,7 @@
                 context: document.body,
                 slideContentSelector: ".js-lightbox-slide-content",
                 slideSelector: ".js-lightbox",
-                bgColor: "#fff",
+                bgColor: "rgba(0, 0, 0, 0)",
                 opacity: "0",
                 idleTimeInMs: 5e3,
                 isCircular: !0,
@@ -4330,7 +4330,7 @@
                 }), t.addClass("lightbox-enabled"), this._$view.find(".js-blocking").css({
                     backgroundColor: this._props.bgColor,
                     opacity: this._props.opacity
-                }), this._$view.find(".js-close svg").attr("fill", l()(this._props.bgColor).isLight() ? "#000" : "#FFF"), 
+                }), this._$view.find(".js-close svg").attr("fill", l()(this._props.bgColor).isLight() ? "#000" : "rgba(0, 0, 0, 0)"), 
                 this.showExtras(), this._$view.removeClass("offscreen");
             }
         }, {
@@ -4988,7 +4988,7 @@
             return o.isReadable(e, u, {
                 level: s,
                 size: a
-            }) || !i ? u : (n.includeFallbackColors = !1, o.mostReadable(e, [ "#fff", "#000" ], n));
+            }) || !i ? u : (n.includeFallbackColors = !1, o.mostReadable(e, [ "rgba(0, 0, 0, 0)", "#000" ], n));
         };
         var X = o.names = {
             aliceblue: "f0f8ff",
