@@ -4,7 +4,7 @@
 }
 html {
 -webkit-filter: grayscale(0.40);
-filter: grayscale(0.40);
+filter: grayscale(0.40); 
 }
 
 
@@ -1543,7 +1543,8 @@ nav .link-title {
     text-align: left;
     text-transform: none;
     width: 90%; }
-  .project-cover .custom {
+	
+.project-cover .custom {
     color: #999;
     float: none;
     font-family: 'Pridi', serif;
@@ -1551,7 +1552,7 @@ nav .link-title {
     font-style: normal;
     font-weight: 300;
     line-height: 17px;
-
+}
 
  .details-inner:after, .project-covers:after {
   clear: both;
