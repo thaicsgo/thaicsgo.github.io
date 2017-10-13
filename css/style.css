@@ -936,7 +936,12 @@ nav .link-title {
   padding-bottom: 30px;
   padding-top: 0px;
   text-align: left; }
-
+.nav2 {
+	padding:3% !important;
+}
+.li2 {
+	font-size:40px; padding:0 40px 0 0 !important; 
+}
 .nav-social {
   text-align: left; }
   .nav-social li {
