@@ -788,7 +788,7 @@ main {
   text-align: left; }
 
 .logo-image {
-  max-width: 50px;
+  max-width: 110px;
   float: left;
   text-align: left; }
 
@@ -815,7 +815,10 @@ main {
   text-transform: none; }
   .logo,
   .logo a {
-    color: #222; }
+    color: #222;
+	display: block;
+	height: 100%;
+	}
   .logo a:hover {
     color: #222;
     font-style: normal;
@@ -1654,7 +1657,7 @@ nav .link-title {
   padding-top: 40px; }
 
 .project-cover .details-wrap {
-  padding-bottom: 20%; }
+  padding-bottom: 0; }
 
 @media (max-width: 768px) {
   .project-covers {
