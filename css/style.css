@@ -1,3 +1,164 @@
+
+#text {
+	display:none;
+}
+html {
+-webkit-filter: grayscale(0.40);
+filter: grayscale(0.40);
+}
+
+
+picture{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+		/* styles unrelated to zoom */
+		* { border:0; margin:0; padding:0; }
+
+		/* these styles are for the demo, but are not required for the plugin */
+		.zoom {
+			display:inline-block;
+			position: relative;
+		}
+		
+		/* magnifying glass icon */
+		.zoom:after {
+			content:'';
+			display:block; 
+			width:33px; 
+			height:33px; 
+			position:absolute; 
+			top:0;
+			right:0;
+			background:url(icon.png);
+		}
+
+		.zoom img {
+			display: block;
+		}
+
+		.zoom img::selection { background-color: transparent; }
+.fa {
+	transition: color 0.3s ease;
+}
+.fa-steam, .fa-facebook {
+	color: #999;
+}
+
+.fa-steam:hover, .fa-facebook:hover{
+	color: #222
+}
+.buttonDownload {
+	display: inline-block;
+	position: relative;
+	padding: 10px 17.5px 10px 25px;
+	background-color: #428bca;
+	color: white;
+	font-family: 'Kanit';
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+	transition: background-color 0.3s ease !important;
+		-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+     -ms-user-select: none; /* Internet Explorer/Edge */
+      user-select: none;
+	 -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.buttonDownload:hover {
+	background-color: #3277b3;
+	transition: background-color 0.3s ease !important;
+}
+
+.buttonDownload:active {
+	background-color: #666;
+}
+
+.buttonDownload:active:after {
+	border-top-color: #fff !important;
+	animation-play-state: running !important;
+}
+
+.buttonDownload:active:before {
+	border-color:  #fff  !important;
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+/* Download arrow shape */
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+	
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: #fff;
+}
+
+.buttonDownload:hover:after {
+	border-top-color: #fff;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
+
+
 .site-header:after, .site-content:after, .logo-wrap:after {
   clear: both;
   content: "";
