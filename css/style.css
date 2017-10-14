@@ -2031,7 +2031,7 @@ nav .link-title {
 .modules .image {
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   padding-top: 0px;
   max-width: 100%;
   width: 100%; }
@@ -2760,3 +2760,4 @@ span.key {
 @font-face{font-family:tscy;src:url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}
 
 @font-face{font-family:tscy;src:url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}
+
