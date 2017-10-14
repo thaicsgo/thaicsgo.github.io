@@ -154,16 +154,6 @@ picture{
 	}
 }
 
-.image-sample {
-	min-height: 100%;
-	padding-top: 78.21782%;
-	background-size: cover;
-	display: block;
-}
-
-
-
-
 .site-header:after, .site-content:after, .logo-wrap:after {
   clear: both;
   content: "";
