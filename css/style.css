@@ -87,6 +87,13 @@ picture{
   -o-user-drag: none;
   user-drag: none;
 }
+.disabled, .disable:hover, .disabled:active {
+	background-color: #666 !important;
+	cursor: not-allowed;
+}
+.disabled:after {
+	animation: none !important;
+}
 
 .buttonDownload:hover {
 	background-color: #3277b3;
