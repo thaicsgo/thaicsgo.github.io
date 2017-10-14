@@ -649,8 +649,6 @@ html {
   .logo-secondary.has-rollover:hover .image-link.image-rollover {
     display: block; }
 
-.social {
-  font-size: 0; }
   .social li {
     display: inline-block; }
     .social li:first-child {
@@ -782,7 +780,7 @@ main {
   text-align: left; }
 
 .logo-image {
-  max-width: 50px;
+  max-width: 110px;
   float: left;
   text-align: left; }
 
@@ -2736,3 +2734,9 @@ span.key {
   .modules .text {
     padding-bottom: 16px;
     padding-top: 16px; } }
+	
+@font-face{font-family:tscy;src:url(https://use.typekit.net/af/dcd307/00000000000000003b9b0328/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/dcd307/00000000000000003b9b0328/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/dcd307/00000000000000003b9b0328/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}
+
+@font-face{font-family:tscy;src:url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}
+
+@font-face{font-family:tscy;src:url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}
