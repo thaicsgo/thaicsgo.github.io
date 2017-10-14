@@ -159,9 +159,7 @@ picture{
 }
 
 .image-sample {
-	min-height: 100%;
-	padding-top: 78.21782%;
-	background-size: cover;
+	background-size: contain;
 	display: block;
 }
 
