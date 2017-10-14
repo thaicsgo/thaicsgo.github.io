@@ -2,11 +2,16 @@ html {
 	-webkit-filter: grayscale(0.40);
 	filter: grayscale(0.40);
   -webkit-tap-highlight-color: transparent;
-;
 }
-#project-modules a {
-	cursor: default !important;
+html,body {
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+     -ms-user-select: none; /* Internet Explorer/Edge */
+     user-select: none;
 }
+
 .nav2 {
 	padding:3% !important;
 }
