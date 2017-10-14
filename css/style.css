@@ -5,6 +5,12 @@ html {
 ;
 }
 
+.nav2 {
+	padding:3% !important;
+}
+.li2 {
+	font-size:40px; padding:0 40px 0 0 !important; 
+}
 
 picture{
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -995,10 +1001,10 @@ nav .link-title {
     padding-left: 0px;
     padding-right: 15px; }
   .masthead-social a:hover svg {
-    fill: #000;
+    fill: #ffffff;
     opacity: 1; }
   .masthead-social svg {
-    fill: #000;
+    fill: #ffffff;
     opacity: 1;
     width: 30px; }
   @media (max-width: 768px) {
@@ -1032,7 +1038,7 @@ nav .link-title {
   .masthead:after {
     display: none; }
   .masthead h1 {
-    color: #ffffff;
+    color: #000;
     font-family: arial;
     font-size: 80px;
     font-style: normal;
@@ -1043,7 +1049,7 @@ nav .link-title {
     text-align: center;
     text-transform: none; }
   .masthead p {
-    color: #ffffff;
+    color: #000;
     font-family: arial;
     font-size: 24px;
     font-style: normal;
@@ -1305,7 +1311,6 @@ nav .link-title {
       bottom: 0;
       left: 0;
       margin: 0;
-      min-height: 80px;
       padding: 5%;
       overflow-x: auto;
       overflow-y: hidden;
