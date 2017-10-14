@@ -936,7 +936,12 @@ nav .link-title {
   padding-bottom: 30px;
   padding-top: 0px;
   text-align: left; }
-
+.nav2 {
+	padding:3% !important;
+}
+.li2 {
+	font-size:40px; padding:0 40px 0 0 !important; 
+}
 .nav-social {
   text-align: left; }
   .nav-social li {
@@ -1401,17 +1406,14 @@ nav .link-title {
   content: "";
   display: table; }
 
+  html, body {
+	  -webkit-tap-highlight-color: transparent !important;
+  }
+  
 .project-cover {
   display: block;
   float: left;
   position: relative; 
-  -webkit-touch-callout:none;
-  -webkit-user-select:none;
-  -khtml-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
 -webkit-tap-highlight-color: transparent;
 }
 

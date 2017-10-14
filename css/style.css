@@ -1,12 +1,14 @@
-
-#text {
-	display:none;
-}
 html {
 -webkit-filter: grayscale(0.40);
 filter: grayscale(0.40);
 }
 
+.nav2 {
+	padding:3% !important;
+}
+.li2 {
+	font-size:40px; padding:0 40px 0 0 !important; 
+}
 
 picture{
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -159,10 +161,12 @@ picture{
 }
 
 .image-sample {
-	min-height: 100%;
-	padding-top: 78.21782%;
-	background-size: cover;
-	display: block;
+	width:100%; /*width of your image*/
+   margin:0; /* If you want no margin */
+   padding:0; /*if your want to padding */
+   background-size: cover;
+   height: 0;
+   padding-top:78.21782%;
 }
 
 .site-header:after, .site-content:after, .logo-wrap:after {
@@ -170,6 +174,12 @@ picture{
   content: "";
   display: table; }
 
+ .project img,
+.project object {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+  
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
    * 1. Set default font family to sans-serif.
@@ -655,6 +665,8 @@ html {
   .logo-secondary.has-rollover:hover .image-link.image-rollover {
     display: block; }
 
+.social {
+   }
   .social li {
     display: inline-block; }
     .social li:first-child {
@@ -813,9 +825,7 @@ main {
   text-transform: none; }
   .logo,
   .logo a {
-    color: #222;
-	display: block;
-	height: 100%;}
+    color: #222; }
   .logo a:hover {
     color: #222;
     font-style: normal;
@@ -848,8 +858,8 @@ nav {
   padding-top: 0px;
   width: 100%; }
   nav .gallery-title a {
-    color: #666;
-    font-family: 'Kanit', sans-serif;
+    color: #222;
+    font-family: tscy;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -861,7 +871,7 @@ nav {
     nav .gallery-title a.active {
       color: #222;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 700;
       text-transform: uppercase; }
   nav .project-title a {
     color: #999;
@@ -883,16 +893,16 @@ nav {
       text-transform: none; }
   nav .page-title a {
     color: #999;
-    font-family: 'Kanit';
+    font-family: tscy;
     font-size: 14px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 14px;
     text-transform: none; }
     nav .page-title a:hover {
       color: #222;
       font-style: normal;
-      font-weight: 300;
+      font-weight: 400;
       text-transform: none; }
     nav .page-title a.active {
       color: #222;
@@ -936,12 +946,7 @@ nav .link-title {
   padding-bottom: 30px;
   padding-top: 0px;
   text-align: left; }
-.nav2 {
-	padding:3% !important;
-}
-.li2 {
-	font-size:40px; padding:0 40px 0 0 !important; 
-}
+
 .nav-social {
   text-align: left; }
   .nav-social li {
@@ -1173,20 +1178,18 @@ nav .link-title {
     font-size: 12px;
     height: 35px;
     line-height: 35px; } }
-.thai {
-	font-weight: 300 !important;
-}
+
 .site-footer {
   color: #ddd;
   margin-left: auto;
   margin-right: auto;
-  font-family: tscy, 'Kanit', sans-serif;
+  font-family: tscy;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
   max-width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 130px;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 60px;
@@ -1316,6 +1319,7 @@ nav .link-title {
       bottom: 0;
       left: 0;
       margin: 0;
+      min-height: 80px;
       padding: 5%;
       overflow-x: auto;
       overflow-y: hidden;
@@ -1401,46 +1405,15 @@ nav .link-title {
   main {
     padding-top: 0; } }
 
- .details-inner:after, .project-covers:after {
+.project-cover .details-inner:after, .project-covers:after {
   clear: both;
   content: "";
   display: table; }
 
-  html, body {
-	  -webkit-tap-highlight-color: transparent !important;
-  }
-  
 .project-cover {
   display: block;
   float: left;
-  position: relative; 
--webkit-tap-highlight-color: transparent;
-}
-
-.project-cover:hover, .project-cover:active, .project-cover:focus {
-  -webkit-touch-callout:none;
-  -webkit-user-select:none;
-  -khtml-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
--webkit-tap-highlight-color: transparent;
-}
-
-.project-cover:hover .title {
-	font-weight:600;
-	color: #000;
-}
-
-.project-cover:hover:after .title {
-
-}
-
-.title {
-	    transition: all 0.175s ease-in-out !important;
-}
-
+  position: relative; }
   .project-cover.hold-space .cover-image:before {
     content: '';
     display: block;
@@ -1489,7 +1462,7 @@ nav .link-title {
   .project-cover .description {
     white-space: pre-line;
     word-wrap: break-word; }
-  .details-inner {
+  .project-cover .details-inner {
     overflow: hidden; }
 
 .back-to-top .arrow {
@@ -1512,10 +1485,9 @@ nav .link-title {
 
 .project-cover {
   margin-right: 1%;
-  width: 32.66667%;
-  margin-bottom:6.5%;}
+  width: 32.66667%; }
   .project-cover.hold-space .cover-image:before {
-    }
+    padding-bottom: 0; }
   .project-cover .cover-image-wrap {
     margin-bottom: 8.5%;
     margin-top: 0%;
@@ -1531,27 +1503,27 @@ nav .link-title {
       opacity: 0; }
   .project-cover:hover .cover-image:after {
     background-color: #fff;
-    opacity: 0.3; }
+    opacity: 0.2; }
   .project-cover .cover-image, .project-cover .cover-image:after, .project-cover .cover {
     border-radius: 0px; }
-  .details-wrap {
+  .project-cover .details-wrap {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     padding-top: 0%;
     width: 100%; }
- .details {
+  .project-cover .details {
     background: rgba(255, 255, 255, 0); }
-  details-inner {
+  .project-cover .details-inner {
     padding-left: 0%;
     padding-right: 0%; }
- .title {
+  .project-cover .title {
     color: #222;
     float: none;
-    font-family: 'Kanit';
+    font-family: tscy;
     font-size: 30px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 30px;
     margin: auto;
     padding-bottom: 5px;
@@ -1576,13 +1548,13 @@ nav .link-title {
     text-align: left;
     text-transform: none;
     width: 90%; }
-   .custom {
+  .project-cover .custom {
     color: #999;
     float: none;
-    font-family: 'Pridi', serif;
-	font-weight: 300;
+    font-family: tscy;
     font-size: 14px;
     font-style: normal;
+    font-weight: 400;
     line-height: 17px;
     margin: auto;
     padding-bottom: 0px;
@@ -1691,6 +1663,9 @@ nav .link-title {
   padding-bottom: 0px;
   padding-top: 40px; }
 
+.project-cover .details-wrap {
+  padding-bottom: 20%; }
+
 @media (max-width: 768px) {
   .project-covers {
     padding-bottom: 0px;
@@ -1709,7 +1684,7 @@ nav .link-title {
   text-align: center; }
   .back-to-top a {
     color: #999999;
-    font-family: 'Pridi';
+    font-family: gmsj;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1765,6 +1740,8 @@ nav .link-title {
   .project-covers {
     padding-top: 0; } }
 
+	
+	
 
 .project-header .title,
 .project-header .description,
