@@ -1038,7 +1038,7 @@ nav .link-title {
   .masthead:after {
     display: none; }
   .masthead h1 {
-    color: #000;
+    color: #ffffff;
     font-family: arial;
     font-size: 80px;
     font-style: normal;
@@ -1049,7 +1049,7 @@ nav .link-title {
     text-align: center;
     text-transform: none; }
   .masthead p {
-    color: #000;
+    color: #ffffff;
     font-family: arial;
     font-size: 24px;
     font-style: normal;
@@ -1070,7 +1070,7 @@ nav .link-title {
 .masthead-button-1 {
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 5px;
-  color: #ffffff;
+  color: #000;
   font-family: arial;
   font-size: 12px;
   font-style: normal;
@@ -1082,7 +1082,7 @@ nav .link-title {
   text-transform: uppercase; }
   .masthead-button-1:hover {
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff;
+    color: #000;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase; }
@@ -1090,7 +1090,7 @@ nav .link-title {
 .masthead-button-appreciate {
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 5px;
-  color: #ffffff;
+  color: #000;
   font-family: arial;
   font-size: 12px;
   font-style: normal;
@@ -1102,7 +1102,7 @@ nav .link-title {
   text-transform: uppercase; }
   .masthead-button-appreciate:hover {
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff;
+    color: #000;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase; }
