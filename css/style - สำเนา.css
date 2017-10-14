@@ -1431,9 +1431,6 @@ nav .link-title {
 	color: #000;
 }
 
-.project-cover:hover:after .title {
-
-}
 
 .title {
 	    transition: all 0.175s ease-in-out !important;

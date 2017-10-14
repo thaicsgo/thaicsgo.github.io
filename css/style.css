@@ -1,4 +1,4 @@
-html,body {
+html {
 	-webkit-filter: grayscale(0.40);
 	filter: grayscale(0.40);
   -webkit-tap-highlight-color: transparent;
@@ -809,7 +809,9 @@ main {
   text-transform: none; }
   .logo,
   .logo a {
-    color: #222; }
+    color: #222;
+	display: block;
+	height: 100%;}
   .logo a:hover {
     color: #222;
     font-style: normal;
@@ -843,7 +845,7 @@ nav {
   width: 100%; }
   nav .gallery-title a {
     color: #222;
-    font-family: tscy;
+    font-family: 'Kanit';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -877,7 +879,7 @@ nav {
       text-transform: none; }
   nav .page-title a {
     color: #999;
-    font-family: tscy;
+    font-family: 'Kanit';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1397,7 +1399,18 @@ nav .link-title {
 .project-cover {
   display: block;
   float: left;
-  position: relative; }
+  position: relative;
+  margin-bottom: 6.5%; }
+  
+  .project-cover:hover .title {
+	font-weight:600;
+	color: #000;
+}
+
+.title {
+	    transition: all 0.175s ease-in-out !important;
+}
+  
   .project-cover.hold-space .cover-image:before {
     content: '';
     display: block;
@@ -1504,10 +1517,10 @@ nav .link-title {
   .project-cover .title {
     color: #222;
     float: none;
-    font-family: tscy;
+    font-family: 'Kanit';
     font-size: 30px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
     margin: auto;
     padding-bottom: 5px;
@@ -1535,7 +1548,7 @@ nav .link-title {
   .project-cover .custom {
     color: #999;
     float: none;
-    font-family: tscy;
+    font-family: 'Pridi', serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1647,8 +1660,6 @@ nav .link-title {
   padding-bottom: 0px;
   padding-top: 40px; }
 
-.project-cover .details-wrap {
-  padding-bottom: 20%; }
 
 @media (max-width: 768px) {
   .project-covers {
