@@ -3,6 +3,10 @@ html {
 filter: grayscale(0.40);
 }
 
+  html, body {
+	  -webkit-tap-highlight-color: transparent !important;
+  }
+  
 .nav2 {
 	padding:3% !important;
 }
