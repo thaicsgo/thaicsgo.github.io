@@ -3,6 +3,11 @@
   content: "";
   display: table; }
 
+.image-sample {
+	background-size: contain;
+	display: block;
+}
+  
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
    * 1. Set default font family to sans-serif.
@@ -1309,8 +1314,6 @@ nav .link-title {
 .project-cover {
   margin-right: 1%;
   width: 32.66667%; }
-  .project-cover.hold-space .cover-image:before {
-    padding-bottom: 78.21782%; }
   .project-cover .cover-image-wrap {
     margin-bottom: 8.5%;
     margin-top: 0%;
@@ -1320,7 +1323,9 @@ nav .link-title {
     float: none;
     margin-left: auto;
     margin-right: auto;
-    width: 100%; }
+    width: 100%;
+	
+	}
     .project-cover .cover-image:after {
       background-color: #fff;
       opacity: 0; }
