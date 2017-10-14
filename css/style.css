@@ -1,6 +1,8 @@
-html {
--webkit-filter: grayscale(0.40);
-filter: grayscale(0.40);
+html,body {
+	-webkit-filter: grayscale(0.40);
+	filter: grayscale(0.40);
+  -webkit-tap-highlight-color: transparent;
+;
 }
 
 
