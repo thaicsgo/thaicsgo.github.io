@@ -89,8 +89,10 @@ picture{
 }
 .disabled, .disable:hover, .disabled:active {
 	background-color: #666 !important;
-	cursor: not-allowed;
+	cursor: not-allowed !important;
+	pointer-events: none;
 }
+
 .disabled:after {
 	animation: none !important;
 }
