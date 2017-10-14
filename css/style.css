@@ -1,7 +1,6 @@
 html {
 	-webkit-filter: grayscale(0.40);
 	filter: grayscale(0.40);
-  -webkit-tap-highlight-color: transparent;
 }
 html,body {
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -10,6 +9,7 @@ html,body {
      -moz-user-select: none; /* Firefox */
      -ms-user-select: none; /* Internet Explorer/Edge */
      user-select: none;
+	 -webkit-tap-highlight-color: transparent !important;
 }
 
 .nav2 {
