@@ -4,7 +4,9 @@ html {
   -webkit-tap-highlight-color: transparent;
 ;
 }
-
+#project-modules a {
+	cursor: default !important;
+}
 .nav2 {
 	padding:3% !important;
 }
@@ -131,11 +133,11 @@ picture{
 }
 
 .buttonDownload:hover:before {
-	border-color: #888;
+	border-color: #fff;
 }
 
 .buttonDownload:hover:after {
-	border-top-color: #888;
+	border-top-color: #fff;
 	animation-play-state: running;
 }
 
@@ -567,7 +569,7 @@ body {
   font-weight: bold; }
 
 html {
-  background-color: #000; }
+  background-color: #fff; }
 
 .site-container {
   float: none;
@@ -578,7 +580,7 @@ html {
 .example-site-footer {
   background: rgba(37, 38, 42, 0.94);
   bottom: 0;
-  color: #888;
+  color: #fff;
   display: inline-block;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 14px;
@@ -588,7 +590,7 @@ html {
   width: 100%;
   z-index: 4; }
   .example-site-footer .icon {
-    fill: #888;
+    fill: #fff;
     float: left; }
   .example-site-footer .content-left,
   .example-site-footer .content-right {
@@ -609,8 +611,8 @@ html {
   top: 50%; }
 
 .example-footer-link {
-  border-bottom: 1px solid #888;
-  color: #888; }
+  border-bottom: 1px solid #fff;
+  color: #fff; }
   .example-footer-link:hover {
     border-bottom-width: 0; }
 
@@ -1263,7 +1265,7 @@ nav .link-title {
     width: 100%; }
   .responsive-nav {
     transition: visibility 0s ease 0.2s, opacity 0.2s ease 0s;
-    background-color: #888;
+    background-color: #fff;
     bottom: 0;
     display: block;
     height: 100%;
@@ -1306,7 +1308,7 @@ nav .link-title {
     .responsive-nav .group {
       padding: 0; }
     .responsive-nav .social {
-      background-color: #888;
+      background-color: #fff;
       border-top: 1px solid rgba(0, 0, 0, 0.08);
       bottom: 0;
       left: 0;
@@ -1501,10 +1503,10 @@ nav .link-title {
 	
 	}
     .project-cover .cover-image:after {
-      background-color: #888;
+      background-color: #fff;
       opacity: 0; }
   .project-cover:hover .cover-image:after {
-    background-color: #888;
+    background-color: #fff;
     opacity: 0.2; }
   .project-cover .cover-image, .project-cover .cover-image:after, .project-cover .cover {
     border-radius: 0px; }
@@ -2238,10 +2240,10 @@ nav .link-title {
     margin-right: auto;
     width: 100%; }
     .other-projects .project-cover .cover-image:after {
-      background-color: #888;
+      background-color: #fff;
       opacity: 0; }
   .other-projects .project-cover:hover .cover-image:after {
-    background-color: #888;
+    background-color: #fff;
     opacity: 0.3; }
   .other-projects .project-cover .cover-image, .other-projects .project-cover .cover-image:after, .other-projects .project-cover .cover {
     border-radius: 0px; }
