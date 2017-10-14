@@ -131,11 +131,11 @@ picture{
 }
 
 .buttonDownload:hover:before {
-	border-color: #fff;
+	border-color: #888;
 }
 
 .buttonDownload:hover:after {
-	border-top-color: #fff;
+	border-top-color: #888;
 	animation-play-state: running;
 }
 
@@ -578,7 +578,7 @@ html {
 .example-site-footer {
   background: rgba(37, 38, 42, 0.94);
   bottom: 0;
-  color: #fff;
+  color: #888;
   display: inline-block;
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 14px;
@@ -588,7 +588,7 @@ html {
   width: 100%;
   z-index: 4; }
   .example-site-footer .icon {
-    fill: #fff;
+    fill: #888;
     float: left; }
   .example-site-footer .content-left,
   .example-site-footer .content-right {
@@ -609,8 +609,8 @@ html {
   top: 50%; }
 
 .example-footer-link {
-  border-bottom: 1px solid #fff;
-  color: #fff; }
+  border-bottom: 1px solid #888;
+  color: #888; }
   .example-footer-link:hover {
     border-bottom-width: 0; }
 
@@ -1001,10 +1001,10 @@ nav .link-title {
     padding-left: 0px;
     padding-right: 15px; }
   .masthead-social a:hover svg {
-    fill: #000;
+    fill: #ffffff;
     opacity: 1; }
   .masthead-social svg {
-    fill: #000;
+    fill: #ffffff;
     opacity: 1;
     width: 30px; }
   @media (max-width: 768px) {
@@ -1038,7 +1038,7 @@ nav .link-title {
   .masthead:after {
     display: none; }
   .masthead h1 {
-    color: #000;
+    color: #ffffff;
     font-family: arial;
     font-size: 80px;
     font-style: normal;
@@ -1049,7 +1049,7 @@ nav .link-title {
     text-align: center;
     text-transform: none; }
   .masthead p {
-    color: #000;
+    color: #ffffff;
     font-family: arial;
     font-size: 24px;
     font-style: normal;
@@ -1070,7 +1070,7 @@ nav .link-title {
 .masthead-button-1 {
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 5px;
-  color: #000;
+  color: #ffffff;
   font-family: arial;
   font-size: 12px;
   font-style: normal;
@@ -1082,7 +1082,7 @@ nav .link-title {
   text-transform: uppercase; }
   .masthead-button-1:hover {
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #000;
+    color: #ffffff;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase; }
@@ -1090,7 +1090,7 @@ nav .link-title {
 .masthead-button-appreciate {
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 5px;
-  color: #000;
+  color: #ffffff;
   font-family: arial;
   font-size: 12px;
   font-style: normal;
@@ -1102,13 +1102,13 @@ nav .link-title {
   text-transform: uppercase; }
   .masthead-button-appreciate:hover {
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #000;
+    color: #ffffff;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase; }
   .masthead-button-appreciate.appreciated {
     border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #000;
+    color: #ffffff;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase; }
@@ -1263,7 +1263,7 @@ nav .link-title {
     width: 100%; }
   .responsive-nav {
     transition: visibility 0s ease 0.2s, opacity 0.2s ease 0s;
-    background-color: #fff;
+    background-color: #888;
     bottom: 0;
     display: block;
     height: 100%;
@@ -1306,7 +1306,7 @@ nav .link-title {
     .responsive-nav .group {
       padding: 0; }
     .responsive-nav .social {
-      background-color: #fff;
+      background-color: #888;
       border-top: 1px solid rgba(0, 0, 0, 0.08);
       bottom: 0;
       left: 0;
@@ -1501,10 +1501,10 @@ nav .link-title {
 	
 	}
     .project-cover .cover-image:after {
-      background-color: #fff;
+      background-color: #888;
       opacity: 0; }
   .project-cover:hover .cover-image:after {
-    background-color: #fff;
+    background-color: #888;
     opacity: 0.2; }
   .project-cover .cover-image, .project-cover .cover-image:after, .project-cover .cover {
     border-radius: 0px; }
@@ -2238,10 +2238,10 @@ nav .link-title {
     margin-right: auto;
     width: 100%; }
     .other-projects .project-cover .cover-image:after {
-      background-color: #fff;
+      background-color: #888;
       opacity: 0; }
   .other-projects .project-cover:hover .cover-image:after {
-    background-color: #fff;
+    background-color: #888;
     opacity: 0.3; }
   .other-projects .project-cover .cover-image, .other-projects .project-cover .cover-image:after, .other-projects .project-cover .cover {
     border-radius: 0px; }
