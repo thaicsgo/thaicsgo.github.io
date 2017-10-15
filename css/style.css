@@ -2,6 +2,60 @@ html {
 	-webkit-filter: grayscale(0.40);
 	filter: grayscale(0.40);
 }
+form.donatebutton {
+	margin-top:6%;
+}
+.paypal-btn {
+	transition: background-color 0.3s ease !important;
+  outline: none;
+  height : 40px;
+  cursor: pointer;
+  width : 55%;
+  font-family: 'Kanit';
+  border-color  : transparent;
+  border-radius : 4px;
+  font-size     : 13px;
+  background    : #0070ba;
+  -webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+}
+
+.paypal-btn2 {
+	transition: background-color 0.3s ease !important;
+  outline: none;
+  height : 40px;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Kanit';
+  border-color  : transparent;
+  border-radius : 4px;
+  font-size     : 16px;
+  background    : #0070ba;
+  display: inline-block;
+  position: relative;
+  bottom: 9px;
+}
+
+.paypal-btn:focus, .paypal-btn:hover, .paypal-btn2:focus, .paypal-btn2:hover {
+  background    : #005ea6;
+}
+.paypal-btn:active, .paypal-btn2:active {
+  background    : #00598e;
+}
+.donate {
+	position: relative;
+	 bottom : 1px !important;
+}
+
+.fa-paypal {
+	font-size: 16px !important;
+}
+.paypal-btn a, .paypal-btn2 a {
+
+  text-decoration : none;
+  color : #fff;
+}
+
 html,body {
 	-webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -13,10 +67,15 @@ html,body {
 }
 
 .nav2 {
-	padding:3% !important;
+	padding:3% 3% 2% 3% !important;
 }
+
+.li2:first-child {
+	padding:0 32.5px 0 0 !important; 
+}
+
 .li2 {
-	font-size:40px; padding:0 40px 0 0 !important; 
+	font-size:40px; padding:0 37.5px 0 0 !important; 
 }
 
 picture{
@@ -64,10 +123,11 @@ picture{
 	color: #222
 }
 .buttonDownload {
+	border-radius:4px;
 	display: inline-block;
 	position: relative;
 	padding: 10px 17.5px 10px 25px;
-	background-color: #428bca;
+	background-color: #0070ba;
 	color: white;
 	font-family: 'Kanit';
 	text-decoration: none;
@@ -98,12 +158,12 @@ picture{
 }
 
 .buttonDownload:hover {
-	background-color: #3277b3;
+	background-color: #005ea6;
 	transition: background-color 0.3s ease !important;
 }
 
 .buttonDownload:active {
-	background-color: #666;
+	background-color: #00598e;
 }
 
 .buttonDownload:active:after {
@@ -1339,7 +1399,7 @@ nav .link-title {
         white-space: nowrap; }
       .responsive-nav .social li {
         display: inline-block;
-        float: none !important;
+        float: none;
         padding: 0 20px 0 0; }
         .responsive-nav .social li:last-child {
           padding-right: 0; }
