@@ -2,6 +2,21 @@ html {
 	-webkit-filter: grayscale(0.40);
 	filter: grayscale(0.40);
 }
+
+.videocontainer {
+    position:relative;
+	padding-bottom:56.25% !important;
+	height:0;
+	overflow:hidden;
+}
+.videocontainer iframe {
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
 form.donatebutton {
 	margin-top:6%;
 }
