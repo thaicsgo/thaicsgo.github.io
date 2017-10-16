@@ -4,131 +4,154 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 <url>
   <loc>https://thaicsgo.github.io/</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/about</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/install</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Athiti</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Boonjot</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Chonburi</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Cloud</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Cloud_Loop</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/CS_ChatThai</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/CS_PraJad</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/CS_PraKas</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Ekkamai</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/F0ntUni</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/iannnnnPDF2008</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Itim</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Kanit</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Layiji_MaHaNiYom</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Maitree</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Mitr</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Moonjelly</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Noto_Sans</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Pattaya</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Pridi</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Prompt</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thaicsgo.github.io/Quark</loc>
-  <lastmod>2017-10-13T04:29:39+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <lastmod>2017-10-15T09:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 </urlset>
