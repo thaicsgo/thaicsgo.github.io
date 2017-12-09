@@ -1,7 +1,64 @@
-html {
-	-webkit-filter: grayscale(0.40);
-	filter: grayscale(0.40);
+
+.superscript { position: relative; top: -6px; font-size: 40%; color:#0070ba; font-family: tscy;}
+
+.thai {
+	font-family: Kanit;
+	font-weight: 300;
 }
+.ribbon {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  z-index:999;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 2px solid #005ea6;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 182px;
+  padding: 5px 20px 5px 0px;
+  background-color: #0070ba;
+  box-shadow: 0 2px 10px rgba(0,0,0,.1);
+  color: #ffe033;
+  font: 700 16px 'tscy', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* top right*/
+.ribbon-top-right {
+  top: -4px;
+  right: -4px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+
+
 
 .videocontainer {
     position:relative;
@@ -134,7 +191,7 @@ picture{
 	color: #999;
 }
 
-.fa-steam:hover, .fa-facebook:hover{
+a:hover .fa-steam, a:hover .fa-facebook{
 	color: #222
 }
 .buttonDownload {
@@ -1045,12 +1102,14 @@ nav .link-title {
     opacity: 1;
     width: 30px; }
   @media (max-width: 768px) {
+	.superscript { font-size: 90%;top: -9px;}
     .nav-social li {
       padding-top: 0px;
       padding-bottom: 12px;
       padding-left: 0px;
       padding-right: 12px; } }
   @media (max-width: 540px) {
+	.superscript { font-size: 90%;top: -10px;}
     .nav-social li {
       padding-top: 0px;
       padding-bottom: 10px;
@@ -1781,14 +1840,12 @@ nav .link-title {
     font-weight: 400;
     line-height: 18px;
     text-transform: normal; }
-    .back-to-top a:hover {
+    .back-to-top a:hover, .back-to-top a:hover .arrow {
       color: #666666; }
   .back-to-top .arrow {
     color: #999999;
     display: inline-block; }
-    .back-to-top .arrow:hover {
-      color: #666666;
-      opacity: 1; }
+
 
 .back-to-top-fixed {
   background: rgba(0, 0, 0, 0.05);
