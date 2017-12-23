@@ -1,6 +1,8 @@
 
 .superscript { position: relative; top: -6px; font-size: 40%; color:#0070ba; font-family: tscy;}
 
+.title .superscript { top: -1em; font-size: 50%;}
+
 .thai {
 	font-family: Kanit;
 	font-weight: 300;
@@ -10,7 +12,7 @@
   height: 100px;
   overflow: hidden;
   position: absolute;
-  z-index:999;
+  z-index:99;
 }
 .ribbon::before,
 .ribbon::after {
@@ -33,7 +35,12 @@
   text-transform: uppercase;
   text-align: center;
 }
-
+.exclusive::before, .exclusive::after {
+	border-color: #990f00;
+}
+.exclusive span {
+	 background-color: #ba1300 ;
+}
 /* top right*/
 .ribbon-top-right {
   top: -4px;
@@ -266,7 +273,7 @@ a:hover .fa-steam, a:hover .fa-facebook{
 	border-top-color: inherit;
 	
 	animation: downloadArrow 2s linear infinite;
-	animation-play-state: paused;
+	animation-play-state: running;
 }
 
 .buttonDownload:hover:before {
@@ -275,7 +282,7 @@ a:hover .fa-steam, a:hover .fa-facebook{
 
 .buttonDownload:hover:after {
 	border-top-color: #fff;
-	animation-play-state: running;
+	animation-play-state: paused;
 }
 
 /* keyframes for the download icon anim */
