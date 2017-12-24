@@ -1,12 +1,161 @@
 
-#text {
-	display:none;
+.superscript { position: relative; top: -6px; font-size: 40%; color:#0070ba; font-family: tscy;}
+
+.title .superscript { top: -1em; font-size: 50%;}
+
+.thai {
+	font-family: Kanit;
+	font-weight: 300;
 }
-html {
--webkit-filter: grayscale(0.40);
-filter: grayscale(0.40);
+.ribbon {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  z-index:99;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 2px solid #005ea6;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 182px;
+  padding: 5px 20px 5px 0px;
+  background-color: #0070ba;
+  box-shadow: 0 2px 10px rgba(0,0,0,.1);
+  color: #ffe033;
+  font: 700 16px 'tscy', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+.exclusive::before, .exclusive::after {
+	border-color: #990f00;
+}
+.exclusive span {
+	 background-color: #ba1300 ;
+}
+/* top right*/
+.ribbon-top-right {
+  top: -4px;
+  right: -4px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
 }
 
+
+
+.videocontainer {
+    position:relative;
+	padding-bottom:56.25% !important;
+	height:0;
+	overflow:hidden;
+}
+.videocontainer iframe {
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+form.donatebutton {
+	margin-top:6%;
+}
+.paypal-btn {
+	transition: background-color 0.3s ease !important;
+  outline: none;
+  height : 40px;
+  cursor: pointer;
+  width : 55%;
+  font-family: 'Kanit';
+  border-color  : transparent;
+  border-radius : 4px;
+  font-size     : 13px;
+  background    : #0070ba;
+  -webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+}
+
+.paypal-btn2 {
+	transition: background-color 0.3s ease !important;
+  outline: none;
+  height : 40px;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Kanit';
+  border-color  : transparent;
+  border-radius : 4px;
+  font-size     : 16px;
+  background    : #0070ba;
+  display: inline-block;
+  position: relative;
+  bottom: 9px;
+}
+
+.paypal-btn:focus, .paypal-btn:hover, .paypal-btn2:focus, .paypal-btn2:hover {
+  background    : #005ea6;
+}
+.paypal-btn:active, .paypal-btn2:active {
+  background    : #00598e;
+}
+.donate {
+	position: relative;
+	 bottom : 1px !important;
+}
+
+.fa-paypal {
+	font-size: 16px !important;
+}
+.paypal-btn a, .paypal-btn2 a {
+
+  text-decoration : none;
+  color : #fff;
+}
+
+html,body {
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+     -ms-user-select: none; /* Internet Explorer/Edge */
+     user-select: none;
+	 -webkit-tap-highlight-color: transparent !important;
+}
+
+.nav2 {
+	padding:3% 3% 2% 3% !important;
+}
+
+.li2:first-child {
+	padding:0 32.5px 0 0 !important; 
+}
+
+.li2 {
+	font-size:40px; padding:0 37.5px 0 0 !important; 
+}
 
 picture{
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -26,16 +175,7 @@ picture{
 		}
 		
 		/* magnifying glass icon */
-		.zoom:after {
-			content:'';
-			display:block; 
-			width:33px; 
-			height:33px; 
-			position:absolute; 
-			top:0;
-			right:0;
-			background:url(icon.png);
-		}
+
 
 		.zoom img {
 			display: block;
@@ -49,14 +189,15 @@ picture{
 	color: #999;
 }
 
-.fa-steam:hover, .fa-facebook:hover{
+a:hover .fa-steam, a:hover .fa-facebook{
 	color: #222
 }
 .buttonDownload {
+	border-radius:4px;
 	display: inline-block;
 	position: relative;
 	padding: 10px 17.5px 10px 25px;
-	background-color: #428bca;
+	background-color: #0070ba;
 	color: white;
 	font-family: 'Kanit';
 	text-decoration: none;
@@ -76,14 +217,23 @@ picture{
   -o-user-drag: none;
   user-drag: none;
 }
+.disabled, .disable:hover, .disabled:active {
+	background-color: #666 !important;
+	cursor: not-allowed !important;
+	pointer-events: none;
+}
+
+.disabled:after {
+	animation: none !important;
+}
 
 .buttonDownload:hover {
-	background-color: #3277b3;
+	background-color: #005ea6;
 	transition: background-color 0.3s ease !important;
 }
 
 .buttonDownload:active {
-	background-color: #666;
+	background-color: #00598e;
 }
 
 .buttonDownload:active:after {
@@ -123,7 +273,7 @@ picture{
 	border-top-color: inherit;
 	
 	animation: downloadArrow 2s linear infinite;
-	animation-play-state: paused;
+	animation-play-state: running;
 }
 
 .buttonDownload:hover:before {
@@ -132,7 +282,7 @@ picture{
 
 .buttonDownload:hover:after {
 	border-top-color: #fff;
-	animation-play-state: running;
+	animation-play-state: paused;
 }
 
 /* keyframes for the download icon anim */
@@ -158,16 +308,16 @@ picture{
 	}
 }
 
-.image-sample {
-	background-size: contain;
-	display: block;
-}
-
 .site-header:after, .site-content:after, .logo-wrap:after {
   clear: both;
   content: "";
   display: table; }
 
+.image-sample {
+	background-size: contain;
+	display: block;
+}
+  
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
    * 1. Set default font family to sans-serif.
@@ -847,7 +997,7 @@ nav {
   width: 100%; }
   nav .gallery-title a {
     color: #666;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -859,7 +1009,7 @@ nav {
     nav .gallery-title a.active {
       color: #222;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 700;
       text-transform: uppercase; }
   nav .project-title a {
     color: #999;
@@ -934,12 +1084,7 @@ nav .link-title {
   padding-bottom: 30px;
   padding-top: 0px;
   text-align: left; }
-.nav2 {
-	padding:3% !important;
-}
-.li2 {
-	font-size:40px; padding:0 40px 0 0 !important; 
-}
+
 .nav-social {
   text-align: left; }
   .nav-social li {
@@ -955,12 +1100,14 @@ nav .link-title {
     opacity: 1;
     width: 30px; }
   @media (max-width: 768px) {
+	.superscript { font-size: 90%;top: -9px;}
     .nav-social li {
       padding-top: 0px;
       padding-bottom: 12px;
       padding-left: 0px;
       padding-right: 12px; } }
   @media (max-width: 540px) {
+	.superscript { font-size: 90%;top: -10px;}
     .nav-social li {
       padding-top: 0px;
       padding-bottom: 10px;
@@ -1171,20 +1318,18 @@ nav .link-title {
     font-size: 12px;
     height: 35px;
     line-height: 35px; } }
-.thai {
-	font-weight: 300 !important;
-}
+
 .site-footer {
   color: #ddd;
   margin-left: auto;
   margin-right: auto;
-  font-family: tscy, 'Kanit', sans-serif;
+  font-family: tscy;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
   max-width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 130px;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 60px;
@@ -1326,7 +1471,7 @@ nav .link-title {
         white-space: nowrap; }
       .responsive-nav .social li {
         display: inline-block;
-        float: none !important;
+        float: none;
         padding: 0 20px 0 0; }
         .responsive-nav .social li:last-child {
           padding-right: 0; }
@@ -1399,43 +1544,27 @@ nav .link-title {
   main {
     padding-top: 0; } }
 
- .details-inner:after, .project-covers:after {
+.project-cover .details-inner:after, .project-covers:after {
   clear: both;
   content: "";
   display: table; }
 
-  html, body {
-	  -webkit-tap-highlight-color: transparent !important;
-  }
-  
 .project-cover {
   display: block;
   float: left;
-  position: relative; 
--webkit-tap-highlight-color: transparent;
-}
-
-.project-cover:hover, .project-cover:active, .project-cover:focus {
-  -webkit-touch-callout:none;
-  -webkit-user-select:none;
-  -khtml-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
--webkit-tap-highlight-color: transparent;
-}
-
-.project-cover:hover .title {
+  position: relative;
+  margin-bottom: 6.5%; }
+  
+  .project-cover:hover .title {
 	font-weight:600;
 	color: #000;
+	letter-spacing: 1.5px;
 }
-
 
 .title {
 	    transition: all 0.175s ease-in-out !important;
 }
-
+  
   .project-cover.hold-space .cover-image:before {
     content: '';
     display: block;
@@ -1484,7 +1613,7 @@ nav .link-title {
   .project-cover .description {
     white-space: pre-line;
     word-wrap: break-word; }
-  .details-inner {
+  .project-cover .details-inner {
     overflow: hidden; }
 
 .back-to-top .arrow {
@@ -1507,10 +1636,7 @@ nav .link-title {
 
 .project-cover {
   margin-right: 1%;
-  width: 32.66667%;
-  margin-bottom:6.5%;}
-  .project-cover.hold-space .cover-image:before {
-    }
+  width: 32.66667%; }
   .project-cover .cover-image-wrap {
     margin-bottom: 8.5%;
     margin-top: 0%;
@@ -1520,27 +1646,29 @@ nav .link-title {
     float: none;
     margin-left: auto;
     margin-right: auto;
-    width: 100%; }
+    width: 100%;
+	
+	}
     .project-cover .cover-image:after {
       background-color: #fff;
       opacity: 0; }
   .project-cover:hover .cover-image:after {
     background-color: #fff;
-    opacity: 0.3; }
+    opacity: 0.2; }
   .project-cover .cover-image, .project-cover .cover-image:after, .project-cover .cover {
     border-radius: 0px; }
-  .details-wrap {
+  .project-cover .details-wrap {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
     padding-top: 0%;
     width: 100%; }
- .details {
+  .project-cover .details {
     background: rgba(255, 255, 255, 0); }
-  details-inner {
+  .project-cover .details-inner {
     padding-left: 0%;
     padding-right: 0%; }
- .title {
+  .project-cover .title {
     color: #222;
     float: none;
     font-family: 'Kanit';
@@ -1571,13 +1699,13 @@ nav .link-title {
     text-align: left;
     text-transform: none;
     width: 90%; }
-   .custom {
+  .project-cover .custom {
     color: #999;
     float: none;
     font-family: 'Pridi', serif;
-	font-weight: 300;
     font-size: 14px;
     font-style: normal;
+    font-weight: 400;
     line-height: 17px;
     margin: auto;
     padding-bottom: 0px;
@@ -1686,6 +1814,7 @@ nav .link-title {
   padding-bottom: 0px;
   padding-top: 40px; }
 
+
 @media (max-width: 768px) {
   .project-covers {
     padding-bottom: 0px;
@@ -1704,20 +1833,18 @@ nav .link-title {
   text-align: center; }
   .back-to-top a {
     color: #999999;
-    font-family: 'Pridi';
+    font-family: 'Pridi' !important;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
     text-transform: normal; }
-    .back-to-top a:hover {
+    .back-to-top a:hover, .back-to-top a:hover .arrow {
       color: #666666; }
   .back-to-top .arrow {
     color: #999999;
     display: inline-block; }
-    .back-to-top .arrow:hover {
-      color: #666666;
-      opacity: 1; }
+
 
 .back-to-top-fixed {
   background: rgba(0, 0, 0, 0.05);
@@ -1761,6 +1888,13 @@ nav .link-title {
     padding-top: 0; } }
 
 
+
+	
+	
+	
+	
+	
+	
 .project-header .title,
 .project-header .description,
 .project-header .date,
@@ -2011,6 +2145,12 @@ nav .link-title {
     padding-top: 0px; } }
  .module-text {
 	   font-family: tscy, 'Kanit', sans-serif;
+	 -webkit-touch-callout: default !important; /* iOS Safari */
+    -webkit-user-select: text !important; /* Safari */
+     -khtml-user-select: text !important; /* Konqueror HTML */
+     -moz-user-select: text !important; /* Firefox */
+     -ms-user-select: text !important; /* Internet Explorer/Edge */
+     user-select: text !important;
 	 }
 @media (max-width: 540px) {
   .project-header {
@@ -2042,7 +2182,7 @@ nav .link-title {
 .modules .image {
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   padding-top: 0px;
   max-width: 100%;
   width: 100%; }
@@ -2765,9 +2905,10 @@ span.key {
   .modules .text {
     padding-bottom: 16px;
     padding-top: 16px; } }
-
+	
 @font-face{font-family:tscy;src:url(https://use.typekit.net/af/dcd307/00000000000000003b9b0328/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/dcd307/00000000000000003b9b0328/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/dcd307/00000000000000003b9b0328/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}
 
 @font-face{font-family:tscy;src:url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/l?subset_id=2&fvd=n5&v=3) format("woff2"),url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/d?subset_id=2&fvd=n5&v=3) format("woff"),url(https://use.typekit.net/af/4dcd87/00000000000000003b9b032a/27/a?subset_id=2&fvd=n5&v=3) format("opentype");font-weight:500;font-style:normal;}
 
 @font-face{font-family:tscy;src:url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/412083/00000000000000003b9b032d/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}
+
