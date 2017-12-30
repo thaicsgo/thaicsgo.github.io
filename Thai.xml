@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<localisation xmlns="http://www.planetcoaster.com/CommunityTranslation">
 	<translation>
 		<!--AvatarCreator-->
 		<note><entry>AvatarCreator_Accept<translation>Accept</translation><note>
@@ -32,4 +30,3 @@
 		<note><entry>AvatarCreator_TeenGroup<translation>Teen Group</translation><note>
 		<note><entry>AvatarCreator_TeenGroupDesc<translation>Only teens can be added.</translation><note>
 	</translation>
-</localisation>
