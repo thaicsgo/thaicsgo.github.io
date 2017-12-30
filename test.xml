@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<localisation xmlns="http://www.planetcoaster.com/CommunityTranslation">
-	<translation>
 		<!--C3_Tags-->
 		<entry>Browser_SubCat_Props_Screens</entry><translation>Screens</translation>
 		<entry>Browser_SubCat_VFX_Fireworks</entry><translation>Fireworks</translation>
@@ -2080,5 +2078,3 @@
 		<entry>GraphicsOptionsMenu_Water_Q4</entry><translation>Ultra</translation>
 		<entry>GraphicsOptionsMenu_WindowTitle</entry><translation>Graphics</translation>
 		<entry>GraphicsOptionsMenu_Windowed</entry><translation>Windowed</translation>
-	</translation>
-</localisation>
