@@ -1,32 +1,31 @@
-	<translation>
-		<!--AvatarCreator-->
-		<note><entry>AvatarCreator_Accept<translation>Accept</translation><note>
-		<note><entry>AvatarCreator_AdultCouple<translation>Adult Couple</translation><note>
-		<note><entry>AvatarCreator_AdultCoupleDesc<translation>Only 2 adults can be added.</translation><note>
-		<note><entry>AvatarCreator_AdultGroup<translation>Adult Group</translation><note>
-		<note><entry>AvatarCreator_AdultGroupDesc<translation>Only adults can be added.</translation><note>
-		<note><entry>AvatarCreator_Back<translation>Back</translation><note>
-		<note><entry>AvatarCreator_CreateAdultCouple<translation>Create Adult Couple</translation><note>
-		<note><entry>AvatarCreator_CreateAdultGroup<translation>Create Adult Group</translation><note>
-		<note><entry>AvatarCreator_CreateFamilyGroup<translation>Create Family Group</translation><note>
-		<note><entry>AvatarCreator_CreateGroup<translation>Create a Group!</translation><note>
-		<note><entry>AvatarCreator_CreateGroupDescription<translation>Add and remove Guests from this group. !PLACEHOLDER TEXT!</translation><note>
-		<note><entry>AvatarCreator_CreateTeenCouple<translation>Create Teen Couple</translation><note>
-		<note><entry>AvatarCreator_CreateTeenGroup<translation>Create Teen Group</translation><note>
-		<note><entry>AvatarCreator_DoEditGroup<translation>Edit Your Group</translation><note>
-		<note><entry>AvatarCreator_EditGroup<translation>Edit Group</translation><note>
-		<note><entry>AvatarCreator_EditGroupDesc<translation>Make changes to your existing group.</translation><note>
-		<note><entry>AvatarCreator_FamilyGroup<translation>Family Group</translation><note>
-		<note><entry>AvatarCreator_FamilyGroupDesc<translation>Children accompanied by adults can be added.</translation><note>
-		<note><entry>AvatarCreator_GroupType<translation>Group Type</translation><note>
-		<note><entry>AvatarCreator_InvalidGroup<translation>This group has an invalid set of members.</translation><note>
-		<note><entry>AvatarCreator_InvalidGrouptitle<translation>Invalid Group</translation><note>
-		<note><entry>AvatarCreator_Name<translation>Enter Name</translation><note>
-		<note><entry>AvatarCreator_Randomize<translation>Randomise</translation><note>
-		<note><entry>AvatarCreator_RotateLeft<translation>Rotate Left</translation><note>
-		<note><entry>AvatarCreator_RotateRight<translation>Rotate Right</translation><note>
-		<note><entry>AvatarCreator_TeenCouple<translation>Teen Couple</translation><note>
-		<note><entry>AvatarCreator_TeenCoupleDesc<translation>Only 2 teens can be added.</translation><note>
-		<note><entry>AvatarCreator_TeenGroup<translation>Teen Group</translation><note>
-		<note><entry>AvatarCreator_TeenGroupDesc<translation>Only teens can be added.</translation><note>
-	</translation>
+<xml>
+		<note><entry>AvatarCreator_Accept<entry><translation>Accept</translation><note>
+		<note><entry>AvatarCreator_AdultCouple<entry><translation>Adult Couple</translation><note>
+		<note><entry>AvatarCreator_AdultCoupleDesc<entry><translation>Only 2 adults can be added.</translation><note>
+		<note><entry>AvatarCreator_AdultGroup<entry><translation>Adult Group</translation><note>
+		<note><entry>AvatarCreator_AdultGroupDesc<entry><translation>Only adults can be added.</translation><note>
+		<note><entry>AvatarCreator_Back<entry><translation>Back</translation><note>
+		<note><entry>AvatarCreator_CreateAdultCouple<entry><translation>Create Adult Couple</translation><note>
+		<note><entry>AvatarCreator_CreateAdultGroup<entry><translation>Create Adult Group</translation><note>
+		<note><entry>AvatarCreator_CreateFamilyGroup<entry><translation>Create Family Group</translation><note>
+		<note><entry>AvatarCreator_CreateGroup<entry><translation>Create a Group!</translation><note>
+		<note><entry>AvatarCreator_CreateGroupDescription<entry><translation>Add and remove Guests from this group. !PLACEHOLDER TEXT!</translation><note>
+		<note><entry>AvatarCreator_CreateTeenCouple<entry><translation>Create Teen Couple</translation><note>
+		<note><entry>AvatarCreator_CreateTeenGroup<entry><translation>Create Teen Group</translation><note>
+		<note><entry>AvatarCreator_DoEditGroup<entry><translation>Edit Your Group</translation><note>
+		<note><entry>AvatarCreator_EditGroup<entry><translation>Edit Group</translation><note>
+		<note><entry>AvatarCreator_EditGroupDesc<entry><translation>Make changes to your existing group.</translation><note>
+		<note><entry>AvatarCreator_FamilyGroup<entry><translation>Family Group</translation><note>
+		<note><entry>AvatarCreator_FamilyGroupDesc<entry><translation>Children accompanied by adults can be added.</translation><note>
+		<note><entry>AvatarCreator_GroupType<entry><translation>Group Type</translation><note>
+		<note><entry>AvatarCreator_InvalidGroup<entry><translation>This group has an invalid set of members.</translation><note>
+		<note><entry>AvatarCreator_InvalidGrouptitle<entry><translation>Invalid Group</translation><note>
+		<note><entry>AvatarCreator_Name<entry><translation>Enter Name</translation><note>
+		<note><entry>AvatarCreator_Randomize<entry><translation>Randomise</translation><note>
+		<note><entry>AvatarCreator_RotateLeft<entry><translation>Rotate Left</translation><note>
+		<note><entry>AvatarCreator_RotateRight<entry><translation>Rotate Right</translation><note>
+		<note><entry>AvatarCreator_TeenCouple<entry><translation>Teen Couple</translation><note>
+		<note><entry>AvatarCreator_TeenCoupleDesc<entry><translation>Only 2 teens can be added.</translation><note>
+		<note><entry>AvatarCreator_TeenGroup<entry><translation>Teen Group</translation><note>
+		<note><entry>AvatarCreator_TeenGroupDesc<entry><translation>Only teens can be added.</translation><note>
+	</xml>
