@@ -1,3 +1,4 @@
+<translation>
 		<!--C3_Tags-->
 		<note><entry>Browser_SubCat_Props_Screens</entry><translation>Screens</translation></note>
 		<note><entry>Browser_SubCat_VFX_Fireworks</entry><translation>Fireworks</translation></note>
@@ -2077,3 +2078,4 @@
 		<note><entry>GraphicsOptionsMenu_Water_Q4</entry><translation>Ultra</translation></note>
 		<note><entry>GraphicsOptionsMenu_WindowTitle</entry><translation>Graphics</translation></note>
 		<note><entry>GraphicsOptionsMenu_Windowed</entry><translation>Windowed</translation></note>
+</translation>
